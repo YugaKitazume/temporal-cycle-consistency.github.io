@@ -8,7 +8,7 @@ To evaluate the power of the embeddings, we densely label the <i>Pouring</i> and
 <div class="figure">
 <video class="b-lazy" data-src="assets/mp4/top.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; width: 100%;"></video>
 <figcaption>
-Figure 1: FIXME
+Figure 1: TCC embeddings are useful  for temporally fine-grained tasks. In the above video, we retrieve nearest neighbors in the embedding space to frames in the reference video. In spite of many variations, TCC maps semantically similar frames to nearby points in the embedding space.
 </figcaption>
 </div>
 
