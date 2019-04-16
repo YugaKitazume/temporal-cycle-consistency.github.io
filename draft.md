@@ -5,17 +5,17 @@ We introduce a self-supervised representation learning method based on the task 
 
 To evaluate the power of the embeddings, we densely label the <i>Pouring</i> and <i>Penn Action</i> video datasets for action phases. We show that (i) the learned embeddings enable few-shot classification of these action phases, significantly reducing the supervised training requirements; and (ii) TCC is complementary to other methods of self-supervised learning in videos, such as Shuffle and Learn and Time-Contrastive Networks. The embeddings are also used for a number of applications based on alignment (dense temporal correspondence) between video pairs, including transfer of metadata of synchronized modalities between videos (sounds, temporal semantic labels), synchronized playback of multiple videos, and anomaly detection.
 
-<!-- <div class="figure"> -->
-<!-- <video class="b-lazy" data-src="assets/mp4/jj_1.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; width: 100%;"></video> -->
-<!-- <figcaption> -->
-<!-- Figure 1: FIXME -->
-<!-- </figcaption> -->
-<!-- </div> -->
+<div class="figure">
+<video class="b-lazy" data-src="assets/mp4/top.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; width: 100%;"></video>
+<figcaption>
+Figure 1: FIXME
+</figcaption>
+</div>
 
 ______
 
 <div class="figure">
-<img src="assets/fig/teaser3.png" style="margin: 0; width: 125%;"/>
+<video class="b-lazy" data-src="assets/mp4/teaser.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; width: 125%;"></video>
 <figcaption>
 Figure 2. We present a self-supervised representation learning technique called temporal cycle consistency (TCC) learning. It is inspired by the temporal video alignment problem, which refers to the task of finding correspondences across multiple videos despite many factors of variation. The learned representations are useful for fine-grained temporal understanding in videos. Additionally, we can now align multiple videos by simply finding nearest-neighbor frames in the embedding space.
 </figcaption>
@@ -56,7 +56,7 @@ While most of these approaches optimize each sample independently, TCC jointly o
 <div id="cycle_consistent_representation_learning"></div>
 
 <div class="figure" id="cycle">
-<img src="assets/fig/teaser_small.png" style="margin: 0; width: 80%;"/>
+<video class="b-lazy" data-src="assets/mp4/teaser_small.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; width: 80%;"></video>
 <figcaption>
 Figure 3: <strong>Cycle-consistent representation learning.</strong> We show two example video sequences encoded in an example embedding space. If we use nearest neighbors for matching, one point (shown in black) is <i>cycling back to itself</i> while another one (shown in red) is not. Our target is to learn an embedding space where maximum number of points can cycle back to themselves. We achieve it by minimizing the cycle consistency error (shown in red dotted line) for each point in every pair of sequences.
 </figcaption>
