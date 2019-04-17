@@ -15,6 +15,6 @@ BibTeX citation
 <pre class="citation long">@article{dwibedi2019tcc,
   title={Temporal Cycle-Consistency Learning},
   author={Dwibedi, Debidatta and Aytar, Yusuf and Tompson, Jonathan and Sermanet, Pierre and Zisserman, Andrew},
-  journal={arXiv preprint arXiv:FIXME},
+  journal={arXiv preprint arXiv:1904.07846},
   year={2019}
 }</pre>
