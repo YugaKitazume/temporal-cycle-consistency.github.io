@@ -65,6 +65,10 @@ Figure 3: <strong>Cycle-consistent representation learning.</strong> We show two
 <div class="figure" id="soft_cycle_consistency">
 <img src="assets/fig/method.png" style="margin: 0; width: 125%;"/>
 </div>
+<div class="figure">
+<video class="b-lazy" data-src="assets/mp4/method.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; width: 125%;"></video>
+</figcaption>
+</div>
 
 Figure 4: <strong>Temporal cycle consistency</strong>. The embedding sequences $U$ and $V$ are obtained by encoding video sequences $S$ and $T$ with the encoder network $\phi$, respectively. For the selected point $u_i$ in $U$, soft nearest neighbor computation and cycling back to $U$ again is demonstrated visually. Finally the normalized distance between the index $i$ and cycling back distribution $N(\mu,\sigma^2)$ (which is fitted to $\beta$) is minimized.
 
